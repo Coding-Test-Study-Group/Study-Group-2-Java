@@ -1,2 +1,3 @@
-# Study-Group-2-Java
-[Java] 코딩 테스트 스터디 그룹 1
+# 2️⃣ 코딩 테스트 스터디 그룹 2️⃣
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
