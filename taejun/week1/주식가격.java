@@ -1,4 +1,4 @@
-package taejun;
+package taejun.week1;
 
 import java.util.*;
 
