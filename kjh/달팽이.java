@@ -9,12 +9,9 @@ public class 달팽이 {
 
     static void solve() {
 
-        int[][] arr = new int[5][5];
 
 
-        /**
-         *  빡대가리라 못하겠네요 달팽ㅇ ㅣ
-         */
+
         int[][] arr = new int[5][5];
         int number = 0;
         int y = 0;
