@@ -6,14 +6,12 @@ class Solution {
     public int numJewelsInStones1(String jewels, String stones) {
         // ArrayList 및 for문 활용
         ArrayList<Character> list = new ArrayList<>();
-        char[] jewels_arr = jewels.toCharArray();
-        char[] stones_arr = stones.toCharArray();
         int cnt = 0;
-        for(char c : jewels_arr) {
-            list.add(c);
+        for(int i=0; i<jewels.length(); i++) {
+            list.add(jewels.charAt(i));
         }
-        for(char c : stones_arr) {
-            if(list.contains(c)) cnt++;
+        for(int i=0; i<stones.length(); i++) {
+            if(list.contains(stones.charAt(i))) cnt++;
         }
         return cnt;
     }
