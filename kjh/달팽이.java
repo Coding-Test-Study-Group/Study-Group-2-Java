@@ -8,10 +8,6 @@ public class 달팽이 {
     }
 
     static void solve() {
-
-
-
-
         int[][] arr = new int[5][5];
         int number = 0;
         int y = 0;
@@ -36,6 +32,5 @@ public class 달팽이 {
             }
             incAndDec *= -1; // 1번 ㄱ 까지 돌렸을때 1  *-1 = -1
         }
-
     }
 }
